@@ -1,4 +1,4 @@
-<div class="card border-0 shadow h-100">
+<div class="card border-0 shadow">
     {{ $page := . }}
     <a href="{{ $page.RelPermalink }}" class="d-block">
         {{- with $page.Params.images -}}

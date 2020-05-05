@@ -28,9 +28,10 @@
                 {{ end }}
             {{ end }}
             </ul>
-<form class="form-inline my-2 my-lg-0" method="GET" role="search" action="https://duckduckgo.com/">
-                <input class="form-control rounded-pill" name="q"type="search" placeholder="Cari sesuatu?" aria-label="Search">
-                <input name="sites" type="hidden" value="www.altarfoss.com"/>
+            <form class="form-inline my-2 my-lg-0" method="GET" role="search" action="https://duckduckgo.com/">
+                <input class="form-control rounded-pill" name="q"type="search" placeholder="Cari Sesuatu?" aria-label="Search">
+                <input name="sites" type="hidden" value="{{ .Site.BaseURL }}"/>
+                <i class='fa-fw fab fa-search'></i>
               </form>
         </div>
     </div>
