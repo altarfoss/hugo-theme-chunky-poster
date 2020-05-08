@@ -28,10 +28,12 @@
                 {{ end }}
             {{ end }}
             </ul>
-            <form class="form-inline my-2 my-lg-0" method="GET" role="search" action="https://duckduckgo.com/">
-                <input class="form-control rounded-pill" name="q"type="search" placeholder="Cari Sesuatu?" aria-label="Search">
+              <form class="form-inline my-2 my-lg-0" method="GET" role="search" action="https://duckduckgo.com/">
+              <div class='input-group'>
+                <input class="form-control border-right-0" name="q"type="search" placeholder="Cari Sesuatu?" aria-label="Search">
+                <div class="input-group-append">
                 <input name="sites" type="hidden" value="{{ .Site.BaseURL }}"/>
-                <i class='fa-fw fab fa-search'></i>
+                <button class='btn btn-outline-success' type="submit"><i class='fa-fw fas fa-search'></i></button></div></div>
               </form>
         </div>
     </div>

@@ -11,6 +11,7 @@ import {
     faEnvelope,
     faRss,
     faTag,
+    faSearch,
 } from '@fortawesome/free-solid-svg-icons';
 import {
     faFacebook,
@@ -56,6 +57,7 @@ library.add(
     faTag,
     faTwitter,
     faWeibo,
+    faSearch,
 );
 
 export default {
